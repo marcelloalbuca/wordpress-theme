@@ -64,4 +64,15 @@ body{
 	width: 960px;
 }
 
+/*BLOG*/
+.blog{
+	padding: 10px 0;
+}
+.blog h2{
+	text-align: center;
+	font-weight: normal;
+	font-size: 40px;
+	color: #383838;
+
+}
 
