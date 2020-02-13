@@ -22,7 +22,7 @@
  		<div class="infor">
  	
 	 	<?php
-					
+			//argumento = pagina = nome = sobre 		
 			$args = array('post_type' => 'page', 'pagename' => 'sobre' );
 			$my_page = get_posts($args);
 		 ?>
@@ -31,10 +31,13 @@
 				 
 	 	?>
 
+	      <!-- Titulo da página-->
 	 	<h2><?php the_title();  ?></h2>
 
+	 <!-- /resumo o conteudo do texto -->
 	 	<?php the_excerpt(); //mostra todo conteudoo the_content();   ?>
 			 
+			 		  <!-- link da pagina -->
 		 <a href="<?php the_permalink(); ?>" class="custom-botao">Leia mais</a>
 
 		<?php endforeach; ?>
@@ -45,15 +48,8 @@
 
 		<?php endif; ?>
 
-				
-
-
  			<!--	<h2> Marcello Cavalcanti de Albuquerque</h2>
-
  				<p>Marcello Cavalcanti de AlbuquerqueMarcello Cavalcanti de AlbuquerqueMarcello Cavalcanti de AlbuquerqueMarcello Cavalcanti de Albuquerque</p>
-
-			 	
- 				
 				 <a href="" class="custom-botao">Leia mais</a>-->	
 
  		</div>
