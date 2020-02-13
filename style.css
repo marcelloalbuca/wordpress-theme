@@ -1,0 +1,67 @@
+/*
+Theme Name: Curso WP
+Theme URI: http://belweb.com.br
+Description: Site para o curso de WP
+Author: Belweb
+Author URI: http://belweb.com.br
+Version: 1.0
+*/
+
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+	height: 800px;
+	background: url(assets/images/bg-header.jpg) center top;
+	padding: 10px 0;
+}
+
+.header h1{
+	margin: 0;
+}
+.header h1 a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.header .infor{
+	padding-top: 120px;
+	margin: 0 auto;
+	width: 860px;
+	text-align: center;
+}
+
+.header .infor h2{
+	color: #fff;
+	font-size: 30px;
+
+}
+
+.header .infor p{
+	color: #fff;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.custom-botao{
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: #60d3b1;
+	color: #fff;
+	border-radius: 30px;
+	margin: 0 auto;
+	width: 339px;
+
+}
+
+.wrap{
+	margin: 0 auto;
+	width: 960px;
+}
+
+
