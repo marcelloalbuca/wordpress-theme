@@ -76,3 +76,21 @@ body{
 
 }
 
+.liste-posts img {
+	float: left;
+}
+
+.box-content-post {
+	float: right;
+	width: 520px;
+	
+}
+
+.box-content-post h2 {
+	text-align: left;
+}
+
+.box-content-post a {
+	display: inline-block;
+	width: 70px;
+}
