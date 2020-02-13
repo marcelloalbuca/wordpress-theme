@@ -15,7 +15,7 @@ body{
 }
 
 .header{
-	height: 800px;
+	height: 600px;
 	background: url(assets/images/bg-header.jpg) center top;
 	padding: 10px 0;
 }
