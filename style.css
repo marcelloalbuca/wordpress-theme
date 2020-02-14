@@ -84,11 +84,13 @@ body{
 
 .liste-posts img{
 	float: left;
+	margin-right: 20px;
 }
 
 .box-content-post{
 	float: right;
-	width: 520px;
+	width: 500px;
+	padding: 10px;
 }
 
 .box-content-post h2{

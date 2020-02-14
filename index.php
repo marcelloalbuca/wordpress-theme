@@ -5,6 +5,7 @@
         <h2>BLOG<h2>
 
         <div class="box-liste-posts">
+
             <div class="liste-posts">
                 <img src="<?php bloginfo('template_directory' );  ?>/assets/images/img-posts.png" alt="">
 
@@ -15,6 +16,20 @@
                 </div>
 
             </div>
+
+
+            <div class="liste-posts">
+
+                <div class="box-content-post">
+                    <h2> Teste Marcello <h2>
+                    <p> TesteTesteTesteTesteTesteTesteTesteTesteTeste </p>
+                    <a href="#" class="custom-botao">Leia mais</a>
+                </div>
+
+                <img src="<?php bloginfo('template_directory' );  ?>/assets/images/img-posts.png" alt="">
+
+            </div>
+
         </div>
     </div>
 </div>
