@@ -10,7 +10,7 @@
 
                 <div class="box-content-post">
                     <h2> Teste Marcello <h2>
-                    <p> TesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTeste </p>
+                    <p> TesteTesteTesteTesteTesteTesteTesteTesteTeste </p>
                     <a href="#" class="custom-botao">Leia mais</a>
                 </div>
 

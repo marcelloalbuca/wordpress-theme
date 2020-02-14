@@ -8,6 +8,8 @@ Version: 1.0
 */
 
 body{
+
+	background-color: #f5f5f5;
 	padding: 0;
 	margin: 0;
 	font-size: 15px;
@@ -75,22 +77,26 @@ body{
 	color: #383838;
 
 }
-
-.liste-posts img {
+.liste-posts{
+	background: #fff;
 	float: left;
 }
 
-.box-content-post {
+.liste-posts img{
+	float: left;
+}
+
+.box-content-post{
 	float: right;
 	width: 520px;
-	
 }
 
-.box-content-post h2 {
+.box-content-post h2{
 	text-align: left;
+	margin-top: 0;
 }
 
-.box-content-post a {
+.box-content-post a{
 	display: inline-block;
 	width: 70px;
 }
