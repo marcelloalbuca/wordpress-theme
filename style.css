@@ -80,11 +80,21 @@ body{
 .liste-posts{
 	background: #fff;
 	float: left;
+	margin-bottom: 40px;
 }
 
 .liste-posts img{
 	float: left;
 	margin-right: 20px;
+}
+
+.segundo-post img{
+	float:right;
+	margin-left: 20px;
+}
+
+.segundo-post .box-content-post{
+	float: left;
 }
 
 .box-content-post{

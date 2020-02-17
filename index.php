@@ -18,7 +18,7 @@
             </div>
 
 
-            <div class="liste-posts">
+            <div class="liste-posts segundo-post">
 
                 <div class="box-content-post">
                     <h2> Teste Marcello <h2>
