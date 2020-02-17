@@ -6,30 +6,24 @@
 
         <div class="box-liste-posts">
 
-            <div class="liste-posts">
-                <img src="<?php bloginfo('template_directory' );  ?>/assets/images/img-posts.png" alt="">
-
-                <div class="box-content-post">
-                    <h2> Teste Marcello <h2>
-                    <p> TesteTesteTesteTesteTesteTesteTesteTesteTeste </p>
-                    <a href="#" class="custom-botao">Leia mais</a>
-                </div>
-
-            </div>
-
-
+        <?php  
+            $args = array('post_type'=>'post', 'showposts'=>2);
+            $my_posts = get_posts( $args );
+        ?>
+        <?php if( $my_posts ) : foreach ( $my_posts as $post ) : setup_postdata ( $post ); ?>
             <div class="liste-posts segundo-post">
 
+                <?php the_post_thumbnail(); ?>
+               <!-- <img src="<?php // bloginfo('template_directory' );  ?>/assets/images/img-posts.png" alt=""> -->
+
                 <div class="box-content-post">
-                    <h2> Teste Marcello <h2>
-                    <p> TesteTesteTesteTesteTesteTesteTesteTesteTeste </p>
-                    <a href="#" class="custom-botao">Leia mais</a>
+                    <h2><?php the_title();  ?></h2>
+                    <?php the_excerpt();  ?>
+                    <a href="<?php the_permalink(); ?>" class="custom-botao">Leia mais</a>
                 </div>
 
-                <img src="<?php bloginfo('template_directory' );  ?>/assets/images/img-posts.png" alt="">
-
             </div>
-
+            <?php endforeach; endif; ?>
         </div>
     </div>
 </div>
