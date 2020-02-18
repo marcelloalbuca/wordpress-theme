@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<title><?php wp_title(); ?></title>
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 
 	<?php wp_head(); ?>
 
@@ -27,9 +27,7 @@
 			$my_page = get_posts($args);
 		 ?>
 
-		<?php if($my_page) : foreach ( $my_page as $post ) : setup_postdata( $post ); 
-				 
-	 	?>
+		<?php if($my_page) : foreach ( $my_page as $post ) : setup_postdata( $post ); ?>
 
 	      <!-- Titulo da página-->
 	 	<h2><?php the_title();  ?></h2>

@@ -17,7 +17,7 @@ body{
 }
 
 .header{
-	height: 600px;
+	height: 450px;
 	background: url(assets/images/bg-header.jpg) center top;
 	padding: 10px 0;
 }
@@ -40,7 +40,6 @@ body{
 .header .infor h2{
 	color: #fff;
 	font-size: 30px;
-
 }
 
 .header .infor p{
@@ -73,15 +72,14 @@ body{
 .blog h2{
 	text-align: center;
 	font-weight: normal;
-	font-size: 40px;
+	font-size: 15px;
 	color: #383838;
 
 }
 .liste-posts{
 	background: #fff;
 	float: left;
-	margin-bottom: 40px;
-}
+	margin-bottom: 40px;}
 
 .liste-posts img{
 	float: left;
@@ -91,6 +89,7 @@ body{
 .segundo-post img{
 	float:right;
 	margin-left: 20px;
+	margin-right: 0;
 }
 
 .segundo-post .box-content-post{
