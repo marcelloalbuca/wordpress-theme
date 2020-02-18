@@ -28,6 +28,16 @@
     </div>
 </div>
 
+<div class="clear"></div>
+
+<div class="galeria">
+    <div class="wrap">
+        <h2>TESTE MARCELLO</h2>
+        <p> testetestetestetestetestetestetestetestetestetestetestetesteteste </p>
+    </div>
+</div>
+
+
 
 
 <?php get_footer(); ?>

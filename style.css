@@ -16,6 +16,10 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.clear{
+	clear: both;
+}
+
 .header{
 	height: 450px;
 	background: url(assets/images/bg-header.jpg) center top;
@@ -57,7 +61,6 @@ body{
 	border-radius: 30px;
 	margin: 0 auto;
 	width: 339px;
-
 }
 
 .wrap{
@@ -110,4 +113,14 @@ body{
 .box-content-post a{
 	display: inline-block;
 	width: 70px;
+}
+/*galeria*/
+
+.galeria {
+	background: #fff;
+
+}
+.galeria h2, .galeria p{
+	color:#383838;
+	text-align: center;
 }
