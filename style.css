@@ -7,120 +7,120 @@ Author URI: http://belweb.com.br
 Version: 1.0
 */
 
-body{
-
-	background-color: #f5f5f5;
-	padding: 0;
-	margin: 0;
-	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+body {
+  background-color: #f5f5f5;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.clear{
-	clear: both;
+.clear {
+  clear: both;
 }
 
-.header{
-	height: 450px;
-	background: url(assets/images/bg-header.jpg) center top;
-	padding: 10px 0;
+.header {
+  height: 450px;
+  background: url(assets/images/bg-header.jpg) center top;
+  padding: 10px 0;
 }
 
-.header h1{
-	margin: 0;
+.header h1 {
+  margin: 0;
 }
-.header h1 a{
-	color: #fff;
-	text-decoration: none;
-}
-
-.header .infor{
-	padding-top: 120px;
-	margin: 0 auto;
-	width: 860px;
-	text-align: center;
+.header h1 a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.header .infor h2{
-	color: #fff;
-	font-size: 30px;
+.header .infor {
+  padding-top: 120px;
+  margin: 0 auto;
+  width: 860px;
+  text-align: center;
 }
 
-.header .infor p{
-	color: #fff;
-	font-weight: lighter;
-	font-size: 20px;
+.header .infor h2 {
+  color: #fff;
+  font-size: 30px;
 }
 
-.custom-botao{
-	display: block;
-	padding: 10px 20px;
-	text-decoration: none;
-	background-color: #60d3b1;
-	color: #fff;
-	border-radius: 30px;
-	margin: 0 auto;
-	width: 339px;
+.header .infor p {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 20px;
 }
 
-.wrap{
-	margin: 0 auto;
-	width: 960px;
+.custom-botao {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #60d3b1;
+  color: #fff;
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 339px;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 960px;
 }
 
 /*BLOG*/
-.blog{
-	padding: 10px 0;
+.blog {
+  padding: 10px 0;
 }
-.blog h2{
-	text-align: center;
-	font-weight: normal;
-	font-size: 15px;
-	color: #383838;
-
+.blog h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+  color: #383838;
 }
-.liste-posts{
-	background: #fff;
-	float: left;
-	margin-bottom: 40px;}
-
-.liste-posts img{
-	float: left;
-	margin-right: 20px;
+.liste-posts {
+  background: #fff;
+  float: left;
+  margin-bottom: 40px;
 }
 
-.segundo-post img{
-	float:right;
-	margin-left: 20px;
-	margin-right: 0;
+.liste-posts img {
+  float: left;
+  margin-right: 20px;
 }
 
-.segundo-post .box-content-post{
-	float: left;
+.segundo-post img {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
 }
 
-.box-content-post{
-	float: right;
-	width: 500px;
-	padding: 10px;
+.segundo-post .box-content-post {
+  float: left;
 }
 
-.box-content-post h2{
-	text-align: left;
-	margin-top: 0;
+.box-content-post {
+  float: right;
+  width: 500px;
+  padding: 10px;
 }
 
-.box-content-post a{
-	display: inline-block;
-	width: 70px;
+.box-content-post h2 {
+  text-align: left;
+  margin-top: 0;
+}
+
+.box-content-post a {
+  display: inline-block;
+  width: 70px;
 }
 /*galeria*/
 
 .galeria {
-	background: #fff;
-
+  background: #fff;
+  padding: 20px 0;
 }
-.galeria h2, .galeria p{
-	color:#383838;
-	text-align: center;
+.galeria h2,
+.galeria p {
+  color: #383838;
+  text-align: center;
 }
