@@ -40,7 +40,7 @@
         <p> testetestetestetestetestetestetestetestetestetestetestetesteteste </p> !-->
 
         <?php
-        $args = array('post_type' => 'page', 'pagename' => 'galeria');
+        $args = array('post_type' => 'page', 'pagename' => 'Galeria');
         $my_page = get_posts($args);
         ?>
         <?php $cont = 1;
@@ -48,14 +48,23 @@
 
                 <?php the_content(); ?>
 
+                <?php $images = easy_image_gallery_get_image_ids(); ?>
+                <?php if ($images) : foreach ($images as $attachment_id) : ?>
+                        <?php $imagefull = wp_get_attachment_image_src($attachment_id, ''); ?>
+                        <?php $image = wp_get_attachment_image_src($attachment_id, 'thumb-custom'); ?>
+
+                        <a class="popup" rel="fancybox[group]" href="<?php echo $imagefull[0]; ?>">
+                            <img src="<?php echo $image[0]; ?>">
+                        </a>
+
+                <?php endforeach;
+                endif; ?>
+
         <?php $cont++;
             endforeach;
         endif; ?>
 
     </div>
 </div>
-
-
-
 
 <?php get_footer(); ?>
