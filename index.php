@@ -53,7 +53,7 @@
                         <?php $imagefull = wp_get_attachment_image_src($attachment_id, ''); ?>
                         <?php $image = wp_get_attachment_image_src($attachment_id, 'thumb-custom'); ?>
 
-                        <a class="popup" rel="fancybox[group]" href="<?php echo $imagefull[0]; ?>">
+                        <a href="<?php echo $imagefull[0]; ?>" data-fancybox="images">
                             <img src="<?php echo $image[0]; ?>">
                         </a>
 

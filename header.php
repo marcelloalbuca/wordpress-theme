@@ -8,6 +8,14 @@
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 
+	<!-- 1. Add latest jQuery and fancybox files -->
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+								<!-- bloginfo -->
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/source/jquery.fancybox.min.css"/>
+
+	<script src="<?php bloginfo('template_directory'); ?>/assets/source/jquery.fancybox.min.js"></script>
+
 	<?php wp_head(); ?>
 
 </head>
